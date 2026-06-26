@@ -14,7 +14,7 @@ The objective is to:
 - Create reporting-ready datasets
 - Maintain complete auditability of all transformations
 
-# Task A – Preserve Raw Data
+# Task 1 – Preserve Raw Data
 
 # Dataset
 
@@ -29,7 +29,7 @@ cleaned_orders.xlsm
 ```text
 cleaned_orders_updated.xlsx
 ```
-#Task 2: Clean Text Fields
+# Task 2 – Clean Text Fields
 
 ### Text Standardization Performed
 
@@ -58,7 +58,7 @@ Cleaning techniques used:
 Result:
 All text fields were standardized into consistent business-friendly formats suitable for reporting and analysis.
 
-#Task 3: Clean and Validate Dates
+# Task 3 – Clean and Validate Dates
 
 ### Date Cleaning and Validation
 
@@ -97,7 +97,7 @@ Validation Rules:
 - Missing or invalid dates are marked as invalid records.
 
 
-## Task 4: Handle Duplicates
+# Task 6 – Handle Duplicates
 
 ### Exact Duplicate Rows
 
