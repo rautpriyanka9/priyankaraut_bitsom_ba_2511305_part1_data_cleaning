@@ -11,7 +11,7 @@ This document records all data quality issues identified, cleaning actions perfo
 **Source File**
 
 ```text
-cleaned_orders.xlsm
+cleaned_orders.xlsx
 ```
 
 **Processed File**
