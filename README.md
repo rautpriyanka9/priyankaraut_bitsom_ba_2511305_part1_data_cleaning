@@ -14,7 +14,7 @@ The objective is to:
 - Create reporting-ready datasets
 - Maintain complete auditability of all transformations
 
----
+#Task 1: Preserve Raw Data
 
 # Dataset
 
@@ -29,6 +29,7 @@ cleaned_orders.xlsm
 ```text
 cleaned_orders_updated.xlsx
 ```
+#Task 2: Clean Text Fields
 
 ### Text Standardization Performed
 
@@ -57,23 +58,7 @@ Cleaning techniques used:
 Result:
 All text fields were standardized into consistent business-friendly formats suitable for reporting and analysis.
 
-### Date Cleaning and Validation
-
-Fields Processed:
-- order_date
-- ship_date
-
-Actions Performed:
-- Converted all valid dates to YYYY-MM-DD format.
-- Identified and flagged missing dates.
-- Identified invalid date values and text values not recognized as dates.
-- Flagged records where ship_date occurred before order_date.
-- Calculated shipping_delay_days as the difference between ship_date and order_date.
-
-Validation Rules:
-- Dates must be recognized by Excel as valid date values.
-- Ship dates cannot occur before order dates.
-- Missing or invalid dates are marked as invalid records.
+#Task 3: Clean and Validate Dates
 
 ### Date Cleaning and Validation
 
@@ -93,7 +78,26 @@ Validation Rules:
 - Ship dates cannot occur before order dates.
 - Missing or invalid dates are marked as invalid records.
 
-## Duplicate Handling
+### Date Cleaning and Validation
+
+Fields Processed:
+- order_date
+- ship_date
+
+Actions Performed:
+- Converted all valid dates to YYYY-MM-DD format.
+- Identified and flagged missing dates.
+- Identified invalid date values and text values not recognized as dates.
+- Flagged records where ship_date occurred before order_date.
+- Calculated shipping_delay_days as the difference between ship_date and order_date.
+
+Validation Rules:
+- Dates must be recognized by Excel as valid date values.
+- Ship dates cannot occur before order dates.
+- Missing or invalid dates are marked as invalid records.
+
+
+## Task 4: Handle Duplicates
 
 ### Exact Duplicate Rows
 
