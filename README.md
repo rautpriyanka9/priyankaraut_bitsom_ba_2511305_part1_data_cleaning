@@ -44,6 +44,7 @@ The dataset contains transactional sales order data with information related to:
 - Payment Status
 - Order Status
 
+### Raw Dataset Preview
 ![Raw Dataset Preview](screenshots/raw_data_preview.PNG)
 
 ## Dataset Size
@@ -85,6 +86,7 @@ The following tools and techniques were used:
 - DATEDIF()
 - TEXTJOIN()
 
+### Clean Dataset Preview
 ![Clean Dataset Preview](screenshots/clean_data_preview.PNG)
 
 # Cleaning Steps Performed
@@ -721,7 +723,7 @@ outputs/pivot_summary.xlsx
 
 The pivot summaries provide a high-level business view of revenue, profitability, customer segments, shipping methods, order performance, and sales trends over time.
 
-#Pivot Summary
+### Pivot Summary
 
 ![Pivot Summary](screenshots/pivot_summary_1.PNG)
 
