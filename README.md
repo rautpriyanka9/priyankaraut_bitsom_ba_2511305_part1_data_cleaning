@@ -85,7 +85,7 @@ The following tools and techniques were used:
 - DATEDIF()
 - TEXTJOIN()
 
----
+![Clean Dataset Preview](screenshots/clean_data_preview.PNG)
 
 # Cleaning Steps Performed
 
