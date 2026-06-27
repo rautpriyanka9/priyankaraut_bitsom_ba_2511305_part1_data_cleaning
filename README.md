@@ -44,7 +44,7 @@ The dataset contains transactional sales order data with information related to:
 - Payment Status
 - Order Status
 
-![Raw Dataset Preview](screenshots/raw_data_preview.png)
+![Raw Dataset Preview](screenshots/raw_data_preview.PNG)
 
 ## Dataset Size
 
