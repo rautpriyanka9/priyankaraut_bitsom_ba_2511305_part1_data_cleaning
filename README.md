@@ -720,3 +720,9 @@ outputs/pivot_summary.xlsx
 ### Purpose
 
 The pivot summaries provide a high-level business view of revenue, profitability, customer segments, shipping methods, order performance, and sales trends over time.
+
+#Pivot Summary
+
+![Pivot Summary](screenshots/pivot_summary_1.PNG)
+
+![Pivot Summary](screenshots/pivot_summary_2.PNG)
